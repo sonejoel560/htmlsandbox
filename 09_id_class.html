@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Div, Span, ID, Class</title>
+    <style>
+        .card{
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .enhance{
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-header">
+     <h1>What Div, span, id and class mean</h1>
+        <p>Know their differences</p>
+</div>
+<ul id="main-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+<div id="about" class="card">
+    <h3>About</h3>
+    <p>An id makes <div class="enhance">reference to a class but a class does not reference an id.</div> The style is a CSS and wasn't necessary needed here, <span class="enhance">it was just used here to show the differerences</span> between class& id.
+        Id is genuine while class can be repeated.</p>
+    <p>A div is used to separate out our content(It is a block level element)
+        A span highlight the specified content but doesn't take it on a new line(Inline element)
+    </p>
+</div>
+
+<div id="contact" class="card">
+<h3>Contact Me</h3>
+<u>
+    <li>Adress: Buea-road, Kumba CMR</li>
+    <li>Phone number: 123456789</li>
+    <li>Email: smallfry@gmail.com</li>
+</u>
+</div>
+
+<div id="footer">
+    <p>Copyright 2020</p>
+</div>
+</body>
+</html>
